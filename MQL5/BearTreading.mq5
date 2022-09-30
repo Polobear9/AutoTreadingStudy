@@ -36,6 +36,8 @@ input double             Signal_RSI_Weight    =1.0;            // Relative Stren
 //--- inputs for money
 input double             Money_FixLot_Percent =10.0;           // Percent
 input double             Money_FixLot_Lots    =100.0;          // Fixed volume
+
+//Test to change File.
 //+------------------------------------------------------------------+
 //| Global expert object                                             |
 //+------------------------------------------------------------------+
