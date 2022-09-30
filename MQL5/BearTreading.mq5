@@ -24,6 +24,10 @@ input string             Expert_Title         ="BearTreading"; // Document name
 ulong                    Expert_MagicNumber   =29269;          //
 bool                     Expert_EveryTick     =false;          //
 //--- inputs for main signal
+input double             MaximumRisk        = 0.03;    // Maximum Risk in percentage
+input double             DecreaseFactor     = 3;       // Descrease factor
+input int                MovingPeriod       = 12;      // Moving Average period
+input int                MovingShift        = 6;       // Moving Average shift
 input int                Signal_ThresholdOpen =10;             // Signal threshold value to open [0...100]
 input int                Signal_ThresholdClose=10;             // Signal threshold value to close [0...100]
 input double             Signal_PriceLevel    =0.0;            // Price level to execute a deal
